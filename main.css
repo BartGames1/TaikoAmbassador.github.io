@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*, :after, :before {
+    border: 0 solid;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.main_class{
+    background-color: #202020;
+    flex-direction: column;
+    display: flex;
+}
+.taiko_soon{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    font-family: 'Poppins',sans-serif;
+    border-bottom: 3px solid rgb(139, 19, 75);
+    height: 33px;
+}
+.taiko_text-soon{
+    height: 33px;
+    text-align: center;
+}
+.officel_header{
+    border-color: rgb(240, 240, 236);
+    border-bottom-width: 1px;
+    display: flex;
+    background-color: #202020;
+    border-bottom: 3px solid rgb(139, 19, 75);
+}
+.taiko_main{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+}
+.taiko_main-wrapper{
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.text-icons{
+    gap: 0.75rem;
+    align-items: center;
+    display: flex;
+}
+.nav_taikoamb{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.logo_text{
+    font-family: 'Poppins',sans-serif;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navig{
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+.navig:hover{
+    color: gray;
+}
+.ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+.main_block{
+    padding-top: 4rem;
+    background-color: #202020;
+    border-color: rgb(240, 240, 236);
+    border-bottom: 3px solid rgb(139, 19, 75);
+}
+.first_block{
+    gap: 4rem;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+.ambassador_block{
+    border-bottom-width: 1px;
+    background-image: url(https://taiko.xyz/img/Taiko_GEOM_1_Fluo_Sliced.svg);
+    background-position: 100% 0%;
+    border-color: rgb(37 37 37);
+    border-top-width: 1px;
+    min-height: 400px;
+    position: relative;
+    background-color: #202020;
+    background-repeat: no-repeat;
+    color: rgb(255 255 255);
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    width: 100%;
+}
+.container_block{
+    flex-direction: column;
+    display: flex;
+    z-index: 10;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+}
+.text_bytaiko{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: azure;
+    margin-left: 20px;
+}
+.slider{
+    color: rgb(1 255 200);
+    position: relative;
+    border-bottom: 3px solid rgb(139, 19, 75);
+}
+.slider::before{
+    border-color: rgb(1 255 200);
+    left: 0;
+    width: 100%;
+    border-bottom-width: 1px;
+    bottom: -0.25rem;
+    position: absolute;
+    content: var(--tw-content);
+}
+.text-h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 1.75rem;
+    margin-left: 20px;
+}
+.subtittle_text{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 1.75rem;
+    margin-left: 20px;
+}
+.project_block{
+    background-color: #202020;
+    border-top-width: 1px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.arrow{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+
+}
+.project_block-wrapper{
+    padding-top: 120px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+}
+.think_block{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.think_block-ptoject{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    flex-direction: row;
+}
+.image_think{
+    display: flex;
+    justify-content: space-between;
+}
+.text_think{
+    color: rgb(255, 255, 255);
+    padding-top: 5rem;
+    width: 440px;
+}
+.title-gradient{
+    align-items: center;
+    background-color: initial;
+    background-image: linear-gradient(90deg,transparent, rgb(227 14 173));
+    border-radius: 0.375rem;
+    color: rgb(255 255 255);
+    display: inline-flex;
+    font-family: Big Shoulders Display,cursive;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 0.625rem;
+    letter-spacing: .2rem;
+    line-height: 16px;
+    padding: 0.5rem 1.25rem;
+    text-transform: uppercase;
+}
+.button_taiko{
+    flex-direction: row;
+    gap: 0.625rem;
+    display: flex;
+    margin-top: 2.5rem;
+}
+.txt_think{
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.btn{
+    align-items: center;
+    background-color: rgb(255 255 255);
+    border-radius: 0.375rem;
+    border-width: 1px;
+    color: rgb(37 37 37);
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    gap: 0.5rem;
+    justify-content: center;
+    letter-spacing: .08em;
+    line-height: 22px;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+.btn:hover{
+    transform: scale(0.97);
+}
+.second_btn{
+    background-color: rgb(20 20 20);
+    border-color: rgb(37 37 37);
+    color: rgb(255 255 255);
+}
+.text{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+}
+.second_block{
+    margin-top: 14rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+.create_block{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5rem;
+}
+.text_create{
+    color: rgb(255, 255, 255);
+    width: 440px;
+}
+.txt_create{
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.text_crt{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+}
+.footer_block{
+    background-color: rgb(37 37 37);
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    margin-top: 120px;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}
+.container_footer{
+    justify-content: space-between;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    width: 100%;
+    flex-direction: row;
+    row-gap: 0;
+}
+.footer_logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.footer_icon{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.footer_ul{
+    display: flex;
+    gap: 0.75rem;
+    color: rgb(131, 131, 131);
+}
+.help_block{
+    gap: 5rem;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    margin-top: 14rem   ;
+}
