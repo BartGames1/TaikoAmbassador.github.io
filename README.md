@@ -1,1 +1,1 @@
-# TaikoAmbassador.github.io
+# taikoambassador.github.io
